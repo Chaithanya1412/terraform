@@ -1,0 +1,16 @@
+# Terraform generated directories and files
+.terraform/
+.terraform.lock.hcl # Consider committing this if you want to lock provider versions for consistent deployments
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*.tfplan
+*.terraformrc
+crash.log
+
+# Override files (if used)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
