@@ -18,3 +18,12 @@ override.tf.json
 *.tfstate.backup
 .terraform.lock.hcl
 
+
+# Standard Terraform ignores
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Ignore provider directories that might contain large binaries
+**/darwin_arm64/
